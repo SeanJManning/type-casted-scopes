@@ -8,6 +8,8 @@ The difference between a `#type_casted_scope` and a regular `#scope` is that the
 
 The available data types are `string, text, bigint, integer, float, decimal, boolean`.
 
+This approach offers a cleaner alternative to validating argument values than writing guard statements within a scope. It proves particularly handy when the value originates from the client, such as through an API query.
+
 The default data type is `string`.
 
 ```ruby
